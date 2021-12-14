@@ -1,8 +1,0 @@
-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    padding-right: 40px;
-}
