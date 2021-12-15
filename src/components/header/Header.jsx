@@ -1,8 +1,8 @@
-import './header.css'
+import style from './header.css'
 
 const Header = () => {
     return (
-        <section className='word'>
+        <section className={style.word}>
             <div>
                 <img src='https://alchemy-guestbook.netlify.app/static/media/guestbook.b8329dbf.png' style={{height: 50 }}alt='book' />
             </div>

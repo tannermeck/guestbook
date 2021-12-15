@@ -1,8 +1,8 @@
-import './body.css'
+import style from './body.css'
 
 const Body = () => {
     return (
-        <div>
+        <div className={style.inputField}>
             <form>
                 <label>Guest Name</label>
                 <input type='text' />
